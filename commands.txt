@@ -1,0 +1,33 @@
+kubectl get nodes                    --> To get node Info
+kubectl get pods                     --> To get pod Info
+kubectl get all -A                   --> To get all the workload Info in cluster
+kubectl get nodes                    --> To get node Info
+kubectl get deployments              --> To get deployments Info
+kubectl get replicaset               --> To get replicasets Info
+kubectl apply -f filename.yml        --> To create deployement from a yml file
+kubectl delete -f filename.yml       --> To delete deployement from a yml file
+kubectl describe pod name            --> To get a particular pod information
+kubectl describe node name           --> To get a particular node information
+kubectl describe deploy name         --> To get a particular deployment information
+kubectl describe replicaset name     --> To get a particular replicaset information
+kubectl edit deployment name         --> To edit a deployment on the fly
+kubectl delete pod name              --> To delete a pod
+kubectl get node/pods -o wide        --> To get the ip Info of pods and nodes
+kubectl get service                  --> To get current services
+kubectl get namespaces               --> To get all the namespaces
+kubectl create namespace name        --> To create a namespace
+kubectl delete namespace name        --> To delete a namespace
+kubectl get ingress                  --> To get ingress info
+kubectl get configmap                --> To get the config map if there
+kubectl describle configmap name     --> To describe a particular config map
+kubectl get secret                   --> To get the secret
+kubectl describe secret name         --> To describe the secret
+kubectl exec podname -- env          --> To get the environment vairable of a pod 
+kubectl get all -n namespace_name    --> To get the environment vairable of a pod 
+kubectl get pv                       --> To get persistant volumes
+kubectl get pvc                      --> To get persistant volumes claims
+kubectl get deamonsets               --> To get deamon sets running
+kubectl get limitrange               --> To get deamon sets running
+kubectl get resourcequota               --> To get deamon sets running
+
+
