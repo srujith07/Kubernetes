@@ -1,2 +1,2 @@
 # kubernetes
-Configureation sample files for all the examples
+Configuration sample files for all the examples
